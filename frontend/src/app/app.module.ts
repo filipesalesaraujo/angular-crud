@@ -22,6 +22,8 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { RedDirective } from "./directives/red.directive";
 import { ForDirective } from "./directives/for.directive";
 
+import { HttpClientModule } from "@angular/common/http";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +46,7 @@ import { ForDirective } from "./directives/for.directive";
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
