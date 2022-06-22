@@ -27,6 +27,10 @@ import { ForDirective } from "./directives/for.directive";
 
 import { HttpClientModule } from "@angular/common/http";
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -40,6 +44,7 @@ import { ProductReadComponent } from './components/product/product-read/product-
     ForDirective,
     ProductCreateComponent,
     ProductReadComponent,
+    ProductRead2Component,
   ],
   imports: [
     BrowserModule,
@@ -55,6 +60,9 @@ import { ProductReadComponent } from './components/product/product-read/product-
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
