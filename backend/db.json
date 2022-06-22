@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta BIC Preta",
-      "price": 5.89
+      "price": "3.89"
     },
     {
       "id": 2,
@@ -14,26 +14,6 @@
       "id": 3,
       "name": "Samsung S20+",
       "price": 5000.89
-    },
-    {
-      "name": "Veio do Formulario",
-      "price": "9.90",
-      "id": 4
-    },
-    {
-      "name": "Geladeira",
-      "price": "1800.44",
-      "id": 5
-    },
-    {
-      "name": "Notebook ASUS",
-      "price": "5000.00",
-      "id": 6
-    },
-    {
-      "name": "Lapis Preto",
-      "price": "2.40",
-      "id": 7
     }
   ]
 }
