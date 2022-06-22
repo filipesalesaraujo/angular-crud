@@ -29,6 +29,11 @@
       "name": "Notebook ASUS",
       "price": "5000.00",
       "id": 6
+    },
+    {
+      "name": "Lapis Preto",
+      "price": "2.40",
+      "id": 7
     }
   ]
 }
